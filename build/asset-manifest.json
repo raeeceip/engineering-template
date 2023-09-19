@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f229b16f.chunk.css",
+    "main.js": "/static/js/main.cb642699.chunk.js",
+    "main.js.map": "/static/js/main.cb642699.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e89362ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e89362ac.js.map",
+    "static/js/2.c1f2974f.chunk.js": "/static/js/2.c1f2974f.chunk.js",
+    "static/js/2.c1f2974f.chunk.js.map": "/static/js/2.c1f2974f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.78fac7e38af37e38e88a4ce4468688ed.js": "/precache-manifest.78fac7e38af37e38e88a4ce4468688ed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f229b16f.chunk.css.map": "/static/css/main.f229b16f.chunk.css.map",
+    "static/media/Ilustration 1.png": "/static/media/Ilustration 1.8aa93284.png",
+    "static/media/Vector Smart Object2.png": "/static/media/Vector Smart Object2.22b2d5e6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e89362ac.js",
+    "static/js/2.c1f2974f.chunk.js",
+    "static/css/main.f229b16f.chunk.css",
+    "static/js/main.cb642699.chunk.js"
+  ]
+}

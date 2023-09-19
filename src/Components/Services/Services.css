@@ -1,0 +1,117 @@
+.services {
+	margin: 5% 0 2% 0;
+	padding: 0 18%;
+	height: 40vh;
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+	color: #ffa500;
+}
+.services section.header h2 {
+	font-size: 2rem;
+	width: 80%;
+}
+.services section.header button {
+	background: #ff3946;
+	color: white;
+	font-weight: bold;
+	padding: 0.7rem 2rem;
+	font-size: 0.8rem;
+	margin-right: 2rem;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: "DM Sans";
+	border-radius: 100px 100px 100px 100px;
+	-webkit-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+	box-shadow: 18px 6px 22px -11px rgba(0, 0, 0, 0.75);
+}
+.services section.header button:hover {
+	background: #da0a18de;
+}
+.services section.graphic-design,
+section.app-dev {
+	display: grid;
+	grid-template-rows: 30% 30% 40%;
+	padding: 20% 5%;
+}
+.services section.graphic-design:hover,
+section.app-dev:hover {
+	background: rgba(0, 0, 0, 0.027);
+}
+.services h4 {
+	font-size: 1.4rem;
+	margin: 0;
+	padding: 0;
+}
+.services p {
+	font-size: 0.7rem;
+	margin: 0;
+	padding: 0;
+	line-height: 1.3rem;
+	margin-top: 5%;
+}
+.services img {
+	width: 2.7rem;
+	height: 2.7rem;
+}
+
+@media screen and (max-width: 768px) {
+	.services {
+		margin: 10% 0;
+		padding: 0 10%;
+		height: inherit;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+		color: #ffa500;
+	}
+
+	.services .link {
+		padding: 0;
+	}
+	.services section.header {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.services section.header h2 {
+		font-size: 1.4rem;
+		text-align: center;
+		width: 100%;
+	}
+	.services section.graphic-design,
+	section.app-dev {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column wrap;
+		margin-top: 10%;
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+
+	.services section.header button {
+		margin: 0;
+	}
+	.services h4 {
+		font-size: 1em;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 2%;
+	}
+	.services p {
+		font-size: 0.7rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.3rem;
+	}
+	.services img {
+		width: 2.7rem;
+		height: 2.7rem;
+		margin-bottom: 2%;
+	}
+}
