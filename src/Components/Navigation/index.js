@@ -7,7 +7,7 @@ const Navigation = () => {
     <div className="navigation">
       <div className="brand-name">
         <a href="/#" className="link">
-          <img src={require("../../assets/Enji-Logo.png")} alt="brandname" />
+          
         </a>
       </div>
       <nav className="nav-links">

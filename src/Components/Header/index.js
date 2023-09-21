@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <div className="header-text" id="header">
-        <h1>The Simaka engineering services limited.</h1>
+        <h1>Simaka engineering services limited.</h1>
         <p>
           Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
           fugit, sed quia consequuntur magni dolores eos nesciunt.
