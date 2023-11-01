@@ -1,7 +1,7 @@
 .services {
-	margin: 5% 0 2% 0;
-	padding: 0 18%;
-	height: 40vh;
+	margin: 10% 0 2% 0;
+	padding: 0 10%;
+	height: 95vh;
 	display: grid;
 	grid-template-columns: 40% 30% 30%;
 	color: #ffa500;
@@ -29,11 +29,15 @@
 .services section.header button:hover {
 	background: #da0a18de;
 }
-.services section.graphic-design,
-section.app-dev {
-	display: grid;
-	grid-template-rows: 30% 30% 40%;
-	padding: 20% 5%;
+.services section {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 20vw;
+	height: 100%;
+	padding: 20px;
 }
 .services section.graphic-design:hover,
 section.app-dev:hover {
@@ -52,6 +56,8 @@ section.app-dev:hover {
 	margin-top: 5%;
 }
 .services img {
+	display: block;
+	margin: 0 auto;
 	width: 2.7rem;
 	height: 2.7rem;
 }
