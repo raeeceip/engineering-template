@@ -2,35 +2,39 @@ import React from "react";
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  const work_images = [
-    require("../../assets/Ilustration 1.png"),
-    require("../../assets/Vector Smart Object2.png"),
-    require("../../assets/Ilustration 1.png"),
-    require("../../assets/Vector Smart Object2.png"),
-    require("../../assets/Ilustration 1.png"),
-    require("../../assets/Vector Smart Object2.png")
-  ];
   return (
     <div className="portfolio" id="portfolio">
       <div className="portfolio-header">
-        <h1>See some of our Creative work.</h1>
-        <span className="arrows">
-          <i className="fas fa-arrow-left small-icon" />
-          <i className="fas fa-arrow-right long-icon" />
-        </span>
+        <h1>Why Choose Us?</h1>
       </div>
-      <div className="work-image">
-        {work_images.map((image, index) => {
-          return (
-            <div className="image" key={index}>
-              <img src={image} alt="work_image" loading="lazy" />
-            </div>
-          );
-        })}
-      </div>
-      <div className="see-more">
-        <span>See More of These.</span>
-      </div>
+      <section className="graphic-design">
+        <img
+          src={require("../../assets/Vector Smart Object3.png")}
+          alt="icon"
+        />
+        <h4>Consultation </h4>
+        <p>
+          Our Expert consultants are here to provide you with valuable insights and guidance for your engineering projects. We offer strategic advice to help you make informed decisions.
+        </p>
+      </section>      <section className="graphic-design">
+        <img
+          src={require("../../assets/Vector Smart Object3.png")}
+          alt="icon"
+        />
+        <h4>Consultation </h4>
+        <p>
+          Our Expert consultants are here to provide you with valuable insights and guidance for your engineering projects. We offer strategic advice to help you make informed decisions.
+        </p>
+      </section>      <section className="graphic-design">
+        <img
+          src={require("../../assets/Vector Smart Object3.png")}
+          alt="icon"
+        />
+        <h4>Consultation </h4>
+        <p>
+          Our Expert consultants are here to provide you with valuable insights and guidance for your engineering projects. We offer strategic advice to help you make informed decisions.
+        </p>
+      </section>
     </div>
   );
 };

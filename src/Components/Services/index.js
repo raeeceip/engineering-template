@@ -15,10 +15,19 @@ const Services = () => {
           src={require("../../assets/Vector Smart Object3.png")}
           alt="icon"
         />
-        <h4>Engineering</h4>
+        <h4>Design </h4>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
+        From concept to completion, our design teams is equipped to bring your idea to life. We creare detialed plans and blueprints that form the foundations of successful projects.
+        </p>
+      </section>
+      <section className="graphic-design">
+        <img
+          src={require("../../assets/Vector Smart Object3.png")}
+          alt="icon"
+        />
+        <h4>Consultation </h4>
+        <p>
+          Our Expert consultants are here to provide you with valuable insights and guidance for your engineering projects. We offer strategic advice to help you make informed decisions.
         </p>
       </section>
       <section className="app-dev">
@@ -26,10 +35,29 @@ const Services = () => {
           src={require("../../assets/Vector Smart Object4.png")}
           alt="icon"
         />
-        <h4>Web & App Development</h4>
+        <h4>Technical services</h4>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
+         From maitenance to trobuleshooting, our technical sevices cover a wide range of engineering needs. We keep our systems running smoothly.
+        </p>
+      </section>
+      <section className="graphic-design">
+        <img
+          src={require("../../assets/Vector Smart Object3.png")}
+          alt="icon"
+        />
+        <h4>Execution  </h4>
+        <p>
+        Our skilled team is ready to turn your vision into reality. We handle all aspects of construction and engineering, from initial groundwork to the finishing touches.
+        </p>
+      </section>
+      <section className="graphic-design">
+        <img
+          src={require("../../assets/Vector Smart Object3.png")}
+          alt="icon"
+        />
+        <h4>Supervision </h4>
+        <p>
+        We ensure that every aspect of your project is executed with precision and adherence to safety standards. Our dedicated supervisors oversee the work, so you can have peace of mind.
         </p>
       </section>
     </div>

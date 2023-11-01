@@ -7,8 +7,7 @@ const Header = () => {
       <div className="header-text" id="header">
         <h1>Simaka engineering services limited.</h1>
         <p>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit, sed quia consequuntur magni dolores eos nesciunt.
+At Simaka Engineering Services Limited, we are at the forefront of innovation, delivering cutting-edge engineering solutions to meet the evolving needs of our clients. With a rich history spanning [X] years, we have established ourselves as a trusted partner in the engineering industry, providing a wide range of services tailored to various sectors.
         </p>
         <span className="more">
           <a href="#about" className="link">
